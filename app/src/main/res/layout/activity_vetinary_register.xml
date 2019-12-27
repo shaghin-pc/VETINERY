@@ -1,0 +1,104 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NAME:"
+        android:id="@+id/Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADDRESS:"
+        android:id="@+id/Address"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="DISTRICT:"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/District"
+        android:entries="@array/district"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TALUK:"
+        android:id="@+id/Taluk"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PANCHAYATH:"
+        android:id="@+id/Panchayath"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WARDE NO:"
+        android:id="@+id/Wardnumber"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="HOUSE NO:"
+        android:inputType="number"
+        android:id="@+id/HouseNumber"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RATION CARD:"
+        android:inputType="number"
+        android:id="@+id/Rationcard"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ADHAAR NO:"
+        android:id="@+id/Adhaarcard"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-MAIL:"
+        android:id="@+id/Email"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PHONE NO:"
+        android:id="@+id/Phonenumber"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD:"
+        android:id="@+id/Password"
+        android:inputType="numberPassword"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CONFIRM PASSWORD:"
+        android:id="@+id/Confirmpassword"
+        android:inputType="numberPassword" />
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"/>
+
+
+
+
+</LinearLayout>

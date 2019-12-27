@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "345186749425",
+    "firebase_url": "https://vetinary-6c151.firebaseio.com",
+    "project_id": "vetinary-6c151",
+    "storage_bucket": "vetinary-6c151.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345186749425:android:98ba84ee76d0ebce981250",
+        "android_client_info": {
+          "package_name": "com.shagi.vetinary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345186749425-43mk42139fu941jlq70ndbbebd7lro08.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shagi.vetinary",
+            "certificate_hash": "79cdc97744bc4c0d681050b1b4874fc1ce9f1cbd"
+          }
+        },
+        {
+          "client_id": "345186749425-gdpmf0nqhpdgia97vnur6u9qn9f6pqsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHXUaXQIbpikFiZVRNkzuzfLYgFFvuo8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345186749425-gdpmf0nqhpdgia97vnur6u9qn9f6pqsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

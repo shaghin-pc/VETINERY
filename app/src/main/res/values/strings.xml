@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Vetinary</string>
+    <string-array name="district">
+        <item>thiruvanathapuram</item>
+        <item>kollam</item>
+        <item>pathanamthitta</item>
+        <item>alapuzha</item>
+        <item>kottayam</item>
+        <item>eranakulam</item>
+        <item>idukki</item>
+        <item>thirissure</item>
+        <item>palakkad</item>
+        <item>malappuram</item>
+        <item>kozhikkod</item>
+        <item>wayanad</item>
+        <item>kannur</item>
+        <item>kasaragod</item>
+    </string-array>
+</resources>
